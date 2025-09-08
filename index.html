@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Interactive CSS & JS Demo</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+    <h1>Bringing Web Pages to Life</h1>
+    <p>A demo project with CSS animations & JavaScript functions.</p>
+  </header>
+
+  <section class="intro">
+    <h2> Part 1: CSS Animations</h2>
+    <p>Hover the button or watch the bouncing box below!</p>
+    <button id="hoverBtn">Hover Me</button>
+    <div class="animated-box"></div>
+  </section>
+
+  <section class="functions">
+    <h2> Part 2: JavaScript Functions</h2>
+    <p>Open the console to see function outputs like sums, messages, and scope examples.</p>
+    <div class="card">
+      <img src="https://picsum.photos/200/120" alt="Random placeholder image">
+      <h3>Reusable Functions</h3>
+      <p>We use JS functions to calculate values, log messages, and change styles dynamically.</p>
+    </div>
+  </section>
+
+  <section class="interaction">
+    <h2> Part 3: CSS + JavaScript Together</h2>
+    <p>Click the button below to animate the box or open a modal popup.</p>
+    <button id="animateBtn">Click to Animate Box</button>
+    <div id="jsBox" class="box"></div>
+    <button id="modalBtn">Open Modal</button>
+  </section>
+
+  <!-- Modal -->
+  <div id="myModal" class="modal">
+    <div class="modal-content">
+      <span id="closeModal">&times;</span>
+      <h2>Hello </h2>
+      <p>This modal was triggered using <strong>JavaScript + CSS animations</strong>.</p>
+    </div>
+  </div>
+
+  <footer>
+    <p>Created for Web Development Assignment | 2025</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
